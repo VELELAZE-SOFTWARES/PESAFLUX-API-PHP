@@ -18,7 +18,7 @@ if(isset($_POST['submit']))
 
     $result_code = $result-> success;
     $message = $result-> message;
-    $transaction_request_id = $result -> tranasaction_request_id;
+    $transaction_request_id = $result -> transaction_request_id;
 
     //GET THE TRANSACTION ID
     echo "transaction_request_id = ".$transaction_request_id;
