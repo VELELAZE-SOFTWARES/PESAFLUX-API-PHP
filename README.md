@@ -12,9 +12,6 @@ For full details on the available API endpoints, parameters, and usage examples,
 
 ## Installation
 
-You can install the PESAFLUX-API-PHP library via Composer or by manually downloading the code.
+You can install the PESAFLUX-API-PHP  by manually downloading the code.
 
-### Option 1: Installing via Composer
 
-```bash
-composer require pesaflux/pesaflux-api-php
