@@ -1,0 +1,12 @@
+{
+    "ResponseCode": 0,
+    "ResponseDescription": "Success. Request accepted for processing",
+    "MerchantRequestID": "60e4-4f14-997e-f04c8c4f586d138746450",
+    "CheckoutRequestID": "ws_CO_10112024123407106769290734",
+    "TransactionID": "SOFTPID1011202412340712682",
+    "TransactionAmount": 1,
+    "TransactionReceipt": "SKA9AG3F37",
+    "TransactionDate": "20241110123407",
+    "TransactionReference": "test",
+    "Msisdn": "254769290734"
+}{"ResponseCode":1032,"ResponseDescription":"Request cancelled by user","MerchantRequestID":"60e4-4f14-997e-f04c8c4f586d138750613","CheckoutRequestID":"ws_CO_10112024123724856724260939","TransactionID":"SOFTPID1011202412372532618","TransactionAmount":50,"TransactionDate":"20241110123725","TransactionReference":"8803416","Msisdn":"254724260939"}{"ResponseCode":0,"ResponseDescription":"Success. Request accepted for processing","MerchantRequestID":"e1f1-482d-9538-d140c330be9b151989316","CheckoutRequestID":"ws_CO_10112024123905229724260839","TransactionID":"SOFTPID1011202412390588183","TransactionAmount":20,"TransactionReceipt":"SKA5AGQ233","TransactionDate":"20241110123905","TransactionReference":"8803416","Msisdn":"254724260839"}{"ResponseCode":0,"ResponseDescription":"Success. Request accepted for processing","MerchantRequestID":"0a83-4731-ac2e-58dccc54ee59152253626","CheckoutRequestID":"ws_CO_10112024124153358724260839","TransactionID":"SOFTPID1011202412415399418","TransactionAmount":50,"TransactionReceipt":"SKA3AH2N1P","TransactionDate":"20241110124153","TransactionReference":"8803416","Msisdn":"254724260839"}
