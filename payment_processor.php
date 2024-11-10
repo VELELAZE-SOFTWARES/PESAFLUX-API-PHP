@@ -10,7 +10,7 @@ function makePayment($api_key, $email, $amount, $msisdn, $reference)
   ));
   $curl = curl_init();
   curl_setopt_array($curl, array(
-    CURLOPT_URL => 'https://velelazesoftwares.co.ke/api/intiatestk',
+    CURLOPT_URL => 'https://velelazesoftwares.co.ke/api/initiatestk',
     CURLOPT_RETURNTRANSFER => true,
     CURLOPT_ENCODING => '',
     CURLOPT_MAXREDIRS => 10,
@@ -34,7 +34,7 @@ function verifyPayment($api_key, $email, $transaction_request_id)
     $payload = json_encode(array(
     "api_key" => $api_key,
     "email" => $email,
-    "tranasaction_request_id" => $transaction_request_id,
+    "transaction_request_id" => $transaction_request_id,
   ));
   $curl = curl_init();
   curl_setopt_array($curl, array(
