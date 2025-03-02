@@ -10,7 +10,7 @@ function makePayment($api_key, $email, $amount, $msisdn, $reference)
   ));
   $curl = curl_init();
   curl_setopt_array($curl, array(
-    CURLOPT_URL => 'https://velelazesoftwares.co.ke/api/initiatestk',
+    CURLOPT_URL => 'https://api.pesaflux.co.ke/v1/initiatestk',
     CURLOPT_RETURNTRANSFER => true,
     CURLOPT_ENCODING => '',
     CURLOPT_MAXREDIRS => 10,
@@ -38,7 +38,7 @@ function verifyPayment($api_key, $email, $transaction_request_id)
   ));
   $curl = curl_init();
   curl_setopt_array($curl, array(
-    CURLOPT_URL => 'https://velelazesoftwares.co.ke/api/transactionstatus',
+    CURLOPT_URL => 'https://api.pesaflux.co.ke/v1/transactionstatus',
     CURLOPT_RETURNTRANSFER => true,
     CURLOPT_ENCODING => '',
     CURLOPT_MAXREDIRS => 10,
